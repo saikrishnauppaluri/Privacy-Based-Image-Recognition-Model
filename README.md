@@ -1,6 +1,5 @@
 # Privacy-Based-Image-Recognition-Model
 
-# Privacy-Based Image Recognition Model
 
 ## Overview
 This project is a **privacy-focused image recognition system** that ensures user privacy by:
@@ -89,3 +88,46 @@ Additionally, the project is scalable to include **real-time video processing** 
    ```bash
    git clone https://github.com/your-username/defect_detection_api.git
    cd defect_detection_api
+   pip install -r requirements.txt
+   Set up the environment variables in .env:
+   UPLOAD_FOLDER=./uploads/
+   MASKS_FOLDER=./outputs/
+   PREDICTOR_PATH=./models/shape_predictor_68_face_landmarks.dat
+   MODEL_PATH=./models/dlib_face_recognition_resnet_model_v1.dat
+   uvicorn app.main:app --reload
+
+
+### Future Plans
+Real-Time Video Processing:
+Extend the system to process live video streams for real-time recognition and analysis.
+
+Advanced Analytics:
+Add emotion, age, and gender detection for deeper insights.
+
+Enhanced Privacy:
+Replace detected faces with synthetic avatars or cartoonized versions.
+
+Scalability:
+Migrate to a cloud-based database for large-scale deployments.
+
+### Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+
+
+---
+
+### **How to Use This README**
+1. Replace `your-username` in the repository URL with your GitHub username.
+2. Add any additional features or details specific to your implementation.
+3. Push the `README.md` file to your repository.
+
+Let me know if you need further assistance!
+---
+
+### **How to Use This README**
+1. Replace `your-username` in the repository URL with your GitHub username.
+2. Add any additional features or details specific to your implementation.
+3. Push the `README.md` file to your repository.
+
+Let me know if you need further assistance!
