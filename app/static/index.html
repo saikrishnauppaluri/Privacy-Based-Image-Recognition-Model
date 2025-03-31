@@ -1,0 +1,43 @@
+<!-- app/static/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Defect Detection API 🔍</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Defect Detection API 🔍</h1>
+
+        <!-- Camera Container for Live Capture -->
+        <div id="camera-container">
+            <video id="camera" autoplay></video>
+            <button id="capture-btn">📸 Capture</button>
+        </div>
+
+        <!-- Hidden Canvas for Capturing Image -->
+        <canvas id="canvas" style="display: none;"></canvas>
+
+        <!-- File Upload Section -->
+        <input type="file" id="upload-input" accept="image/*" />
+        <button id="upload-btn">⬆️ Upload</button>
+
+        <!-- Loading Spinner -->
+        <div id="loading" class="spinner" style="display: none;"></div>
+
+        <!-- Result Section -->
+        <div id="result">
+            <h3>Processed Image:</h3>
+            <img id="mask-img" src="" alt="Mask Image" />
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            Built with Curiosity ❤️
+        </div>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

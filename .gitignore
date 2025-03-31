@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 uploads/
 outputs/
-app/static/
 *.pyo
 *.db
 .env
